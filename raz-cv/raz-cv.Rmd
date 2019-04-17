@@ -1,0 +1,369 @@
+---
+name: Rizqy Amelia Zein
+position: "Instructor"
+address: "Department of Personality and Social Psychology, Universitas Airlangga"
+phone: +62 811 253 0 777
+www: rameliaz.github.io
+email: amelia.zein@psikologi.unair.ac.id
+twitter: ameliazein
+github: rameliaz
+date: "`r format(Sys.time(), '%B %Y')`"
+qualifications: S.Psi., M.Sc.
+aboutme: Social Psychology, Science Communication, Research Methods, R, Statistics
+profilepic: foto.jpeg
+headcolor: 414141
+output: 
+  vitae::moderncv:
+  theme: fancy
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+library(lubridate)
+library(here)
+library(readxl)
+library(glue)
+library(scholar)
+```
+
+```{r edu, include=FALSE}
+edu.raw <- read_csv(here::here("data", "education.csv"))
+edu <-
+  edu.raw %>% 
+  fill(degree, start, end, uni, location, details) %>%  
+  mutate(start = dmy(start),
+         end = dmy(end)) %>% 
+  mutate(when = case_when(
+    year(start) == year(end) ~ year(end) %>% as.character(),
+    TRUE ~ glue("{year(start)}--{year(end)}") %>% as.character()
+  ))
+```
+
+```{r experience, include=FALSE}
+jobs.raw <- read_csv(here::here("data", "jobs.csv"))
+jobs <-
+  jobs.raw %>% 
+  fill(start, end, what, with, where, tag) %>%  
+  mutate(start = dmy(start),
+         end = dmy(end)) %>% 
+  mutate(when = case_when(
+    is.na(end) ~ glue("{year(start)}--Present") %>% as.character(),
+    year(start) == year(end) ~ year(end) %>% as.character(),
+    TRUE ~ glue("{year(start)}--{year(end)}") %>% as.character()
+  ))
+```
+
+```{r presentations, include=FALSE}
+presentations.raw <- read_csv(here("data", "presentation.csv"))
+presentations <- 
+  presentations.raw %>% 
+  mutate(when = dmy(when)) %>% 
+  arrange(desc(when))
+```
+
+```{r prof-devel, include=FALSE}
+development.raw <- read_csv(here("data", "personal development.csv"))
+development <- 
+  development.raw %>% 
+  mutate(when = dmy(when)) %>% 
+  arrange(desc(when))
+```
+
+```{r awards, include=FALSE}
+awards.raw <- read_csv(here("data", "awards & grants.csv"))
+awards <- awards.raw %>% 
+  mutate(when = dmy(when)) %>% 
+  arrange(desc(when))
+```
+
+
+```{r pubs, include=FALSE}
+pubs.raw <- read_csv(here("data", "publications.csv"))
+pubs <- pubs.raw %>% 
+  mutate(when = dmy(when)) %>% 
+  arrange(desc(when))
+```
+
+
+# Introduction
+I am an aspiring PhD, interested in conducting research on **public understanding in science** by looking at its relation with **conspiracy belief**, **collective narcissism**, **epistemic virtue/belief**, **religiosity** and **general/intellectual humility**. I am also interested in the issues of **research methods**, **replicability** and **statistical analysis**. 
+
+# Education 
+
+```{r education}
+edu %>% 
+  arrange(desc(start)) %>% 
+  detailed_entries(
+    what = degree,
+    when = when,
+    with = uni,
+    where = location,
+    why = details
+  )
+
+```
+
+# Research Experience
+
+```{r research}
+
+jobs %>% 
+  filter(tag == "research") %>% 
+  arrange(desc(start)) %>%
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    why = why,
+    where = where
+  )
+```
+
+
+# Teaching Experience
+
+```{r teaching}
+
+jobs %>% 
+  filter(tag=="teaching") %>% 
+  arrange(desc(start)) %>% 
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    why = why,
+    where = where
+  )
+```
+
+# Awards & Grants
+
+```{r aw}
+awards %>% 
+  arrange(desc(when)) %>%
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    why = why,
+    where = where
+  )
+```
+
+
+# Publications
+
+## Op-Ed Articles in Mass Media
+
+```{r op}
+pubs %>% 
+  filter(tag == "op") %>% 
+  arrange(desc(when)) %>%
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    why = why,
+    where = where
+  )
+```
+
+## Peer-Reviewed Articles
+
+```{r pub}
+pubs %>% 
+  filter(tag == "peer") %>% 
+  arrange(desc(when)) %>% 
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    why = why,
+    where = where
+  )
+```
+
+
+# Community Service
+
+## Manuscript Reviewer
+ * Journal of Ethnic and Migration Studies (2)
+ * PLoS One (3)
+ * Psychology and Sexuality (1)
+ * Psychology Research and Behavior Management (1)
+ 
+## Other
+
+```{r}
+jobs %>%
+  filter(tag == "service") %>% 
+  arrange(desc(when)) %>% 
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    where = where,
+    why = why
+  )
+```
+
+
+# Presentation
+
+## Conference Presentation
+
+```{r}
+presentations %>%
+  filter(tag == "conference") %>% 
+  arrange(desc(when)) %>% 
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    where = where,
+    why = why
+  )
+```
+
+
+## Poster Presentation
+
+```{r}
+presentations %>%
+  filter(tag == "poster") %>% 
+  arrange(desc(when)) %>% 
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    where = where,
+    why = why
+  )
+```
+
+
+## Invited Talk
+
+```{r}
+presentations %>%
+  filter(tag == "invited talk") %>% 
+  arrange(desc(when)) %>% 
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    where = where,
+    why = why
+  )
+```
+
+
+## Workshop
+
+```{r}
+presentations %>%
+  filter(tag == "workshop") %>% 
+  arrange(desc(when)) %>% 
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    where = where,
+    why = why
+  )
+```
+
+
+## Live TV Talkshow
+
+```{r}
+presentations %>%
+  filter(tag == "live talkshow") %>% 
+  arrange(desc(when)) %>% 
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    where = where,
+    why = why
+  )
+```
+
+
+
+# Professional Development
+
+## Workshop
+
+```{r}
+development %>%
+  filter(why == "workshop") %>% 
+  arrange(desc(when)) %>% 
+  brief_entries(
+    what = what,
+    when = when,
+    with = with
+  )
+```
+
+## MOOC
+
+```{r}
+development %>%
+  filter(why == "mooc") %>% 
+  arrange(desc(when)) %>% 
+  brief_entries(
+    what = what,
+    when = when,
+    with = with
+  )
+```
+
+## Summer School
+
+```{r}
+development %>%
+  filter(why == "summer school") %>% 
+  arrange(desc(when)) %>% 
+  brief_entries(
+    what = what,
+    when = when,
+    with = with
+  )
+```
+
+## Professional Membership
+
+```{r}
+jobs %>%
+  filter(tag == "profesional") %>% 
+  arrange(desc(when)) %>% 
+  brief_entries(
+    what = with,
+    when = when,
+    with = where
+  )
+```
+
+# Part-time Jobs
+
+```{r}
+jobs %>%
+  filter(tag == "other") %>% 
+  arrange(desc(when)) %>% 
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    where = where,
+    why = why
+  )
+```
+
+# Other Activities
+  * Cooking
+  * Cycling
+  * Reading Science Fiction
+  * Watching anything in Netflix
