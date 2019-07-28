@@ -1,5 +1,6 @@
 ---
-name: Rizqy Amelia Zein
+name: Rizqy Amelia
+surname: Zein
 position: "Instructor"
 address: "Department of Personality and Social Psychology, Universitas Airlangga"
 phone: +62 811 253 0 777
@@ -14,7 +15,7 @@ profilepic: foto.jpeg
 headcolor: 414141
 output: 
   vitae::moderncv:
-  theme: fancy
+  theme: banking
 ---
 
 ```{r setup, include=FALSE}
@@ -88,7 +89,7 @@ pubs <- pubs.raw %>%
 
 
 # Introduction
-I am an aspiring PhD, interested in conducting research on **public understanding in science** by looking at its relation with **conspiracy belief**, **collective narcissism**, **epistemic virtue/belief**, **religiosity** and **general/intellectual humility**. I am also interested in the issues of **research methods**, **replicability** and **statistical analysis**. 
+I am an aspiring PhD, interested in conducting research on **public understanding in science** by looking at its relation with **conspiracy belief**, **collective narcissism**, **epistemic virtue/belief**, **religiosity** and **general/intellectual humility**. I am also interested in the issues of **research methods**, **replicability** and **statistical analysis**.
 
 # Education 
 
@@ -104,6 +105,7 @@ edu %>%
   )
 
 ```
+
 
 # Research Experience
 
@@ -190,7 +192,7 @@ pubs %>%
 
 ## Manuscript Reviewer
  * Journal of Ethnic and Migration Studies (2)
- * PLoS One (3)
+ * PLoS One (5)
  * Psychology and Sexuality (1)
  * Psychology Research and Behavior Management (1)
  
@@ -362,8 +364,18 @@ jobs %>%
   )
 ```
 
+
+# Skills
+  * Academic writing
+  * Advanced statistical analysis
+    - Multi-level modelling, structural equation modelling, general linear modelling, generalised linear models
+  * Research methods
+  * R programming
+    - `lavaan`, `psych`, `lme4`, `papaja`, `xaringan`, `blogdown`, & `tidyverse`
+
+
 # Other Activities
   * Cooking
   * Cycling
-  * Reading Science Fiction
-  * Watching anything in Netflix
+  * Reading science fiction
+  * Watching food/culinary documentary on Netflix
