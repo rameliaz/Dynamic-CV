@@ -1,0 +1,7 @@
+library(usethis)
+usethis::use_git()
+usethis::use_github()
+browse_github_token()
+usethis::edit_r_environ()
+use_git_config(user.name = "rameliaz", user.email = "amelia.zein@psikologi.unair.ac.id")
+Sys.getenv("GITHUB_PAT")
