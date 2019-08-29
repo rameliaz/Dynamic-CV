@@ -1,7 +1,7 @@
 ---
 name: Rizqy Amelia
 surname: Zein
-position: "Instructor"
+position: "Assitant Professor"
 address: "Department of Personality and Social Psychology, Universitas Airlangga"
 phone: +62 811 253 0 777
 www: rameliaz.github.io
@@ -89,7 +89,7 @@ pubs <- pubs.raw %>%
 
 
 # Introduction
-I am an aspiring PhD, interested in conducting research on **public understanding in science** by looking at its relation with **conspiracy belief**, **collective narcissism**, **epistemic virtue/belief**, **religiosity** and **general/intellectual humility**. I am also interested in the issues of **research methods**, **replicability** and **statistical analysis**.
+As an aspiring PhD, I’m interested in conducting research on **science denialism** by looking at its relation with **conspiracy belief**, **collective narcissism**, **epistemic virtue/belief**, **religiosity** and **general/intellectual humility**. I’m also very passionate about **research methods**, **meta-research**, **reproducibility**, **psychometrics**, and **advanced statistical analysis**.
 
 # Education 
 
@@ -192,7 +192,7 @@ pubs %>%
 
 ## Manuscript Reviewer
  * Journal of Ethnic and Migration Studies (2)
- * PLoS One (5)
+ * PLoS One (6)
  * Psychology and Sexuality (1)
  * Psychology Research and Behavior Management (1)
  
@@ -368,10 +368,13 @@ jobs %>%
 # Skills
   * Academic writing
   * Advanced statistical analysis
-    - Multi-level modelling, structural equation modelling, general linear modelling, generalised linear models
+    - Multi-level modeling, latent variable modeling (structural equation modeling, mixture models), general linear modeling, generalised linear models
+  * Advanced psychometrics analysis
+    - Latent response model
   * Research methods
+    - Cross-sectional survey, experiments, systematic review, & meta-analysis
   * R programming
-    - `lavaan`, `psych`, `lme4`, `papaja`, `xaringan`, `blogdown`, & `tidyverse`
+    - `lavaan`, `psych`, `lme4`, `papaja`, `xaringan`, `blogdown`, `bookdown`, `metaverse`, & `tidyverse`
 
 
 # Other Activities
