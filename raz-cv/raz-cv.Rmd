@@ -1,7 +1,7 @@
 ---
 name: Rizqy Amelia
 surname: Zein
-position: "Assitant Professor"
+position: "Assistant Professor"
 address: "Department of Personality and Social Psychology, Universitas Airlangga"
 phone: +62 811 253 0 777
 www: rameliaz.github.io

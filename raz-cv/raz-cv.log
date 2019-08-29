@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.28)  29 AUG 2019 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.28)  29 AUG 2019 14:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,7 +822,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  23247 strings out of 494553
  396521 string characters out of 6175559
- 478587 words of memory out of 5000000
+ 478593 words of memory out of 5000000
  26590 multiletter control sequences out of 15000+600000
  598805 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -849,7 +849,7 @@ m/lmro10.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
 e1/public/lm/lmro12.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dis
 t/fonts/type1/public/lm/lmro17.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTe
 X/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on raz-cv.pdf (9 pages, 570950 bytes).
+Output written on raz-cv.pdf (9 pages, 570954 bytes).
 PDF statistics:
  322 PDF objects out of 1000 (max. 8388607)
  274 compressed objects within 3 object streams
