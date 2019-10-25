@@ -10,7 +10,7 @@ twitter: ameliazein
 github: rameliaz
 date: "`r format(Sys.time(), '%B %Y')`"
 qualifications: S.Psi., M.Sc.
-aboutme: Social Psychology, Science Communication, Research Methods, R, Statistics
+aboutme: Social Psychology, Science & Scholarly Communication, Research Methods, R, Statistics
 profilepic: foto.jpeg
 headcolor: 414141
 output: 
@@ -79,6 +79,11 @@ awards <- awards.raw %>%
   arrange(desc(when))
 ```
 
+```{r skills, include=FALSE}
+skills.raw <- read_csv(here("data", "skills.csv"))
+skills <- skills.raw %>% arrange(when)
+```
+
 
 ```{r pubs, include=FALSE}
 pubs.raw <- read_csv(here("data", "publications.csv"))
@@ -89,7 +94,9 @@ pubs <- pubs.raw %>%
 
 
 # Introduction
-As an aspiring PhD, I’m interested in conducting research on **science denialism** by looking at its relation with **conspiracy belief**, **collective narcissism**, **epistemic virtue/belief**, **religiosity** and **general/intellectual humility**. I’m also very passionate about **research methods**, **meta-research**, **reproducibility**, **psychometrics**, and **advanced statistical analysis**.
+
+As an aspiring PhD, I'm interested in researching **moral reasoning**, **norms violation**, and **moral disengagement** in the context of **online social interaction**. I'm also very passionate about **research methods**, **meta-research**, **computational reproducibility**, **psychometrics**, and **advanced statistical analysis**.
+
 
 # Education 
 
@@ -107,7 +114,7 @@ edu %>%
 ```
 
 
-# Research Experience
+# Research Experiences
 
 ```{r research}
 
@@ -124,7 +131,7 @@ jobs %>%
 ```
 
 
-# Teaching Experience
+# Teaching Experiences
 
 ```{r teaching}
 
@@ -140,10 +147,74 @@ jobs %>%
   )
 ```
 
+
+# Skills
+
+```{r}
+skills %>%
+  arrange(desc(when)) %>% 
+  brief_entries(
+    what = what,
+    when = when,
+  )
+```
+
+
 # Awards & Grants
 
-```{r aw}
+## **Scholarship**
+
+```{r scholarship}
 awards %>% 
+  filter(tag == "Scholarship") %>% 
+  arrange(desc(when)) %>%
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    why = why,
+    where = where
+  )
+```
+
+
+## **Awards**
+
+```{r award}
+awards %>% 
+  filter(tag == "Award") %>% 
+  arrange(desc(when)) %>%
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    why = why,
+    where = where
+  )
+```
+
+
+## **Research Grants**
+
+```{r rg}
+awards %>% 
+  filter(tag == "Research Grant") %>% 
+  arrange(desc(when)) %>%
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    why = why,
+    where = where
+  )
+```
+
+
+## **Travel Grants**
+
+```{r research grant}
+awards %>% 
+  filter(tag == "Travel Grant") %>% 
   arrange(desc(when)) %>%
   detailed_entries(
     what = what,
@@ -157,22 +228,7 @@ awards %>%
 
 # Publications
 
-## Op-Ed Articles in Mass Media
-
-```{r op}
-pubs %>% 
-  filter(tag == "op") %>% 
-  arrange(desc(when)) %>%
-  detailed_entries(
-    what = what,
-    when = when,
-    with = with,
-    why = why,
-    where = where
-  )
-```
-
-## Peer-Reviewed Articles
+## **Peer-Reviewed Articles**
 
 ```{r pub}
 pubs %>% 
@@ -188,15 +244,31 @@ pubs %>%
 ```
 
 
-# Community Service
+## **Op-Ed Articles in Mass Media**
 
-## Manuscript Reviewer
+```{r op}
+pubs %>% 
+  filter(tag == "op") %>% 
+  arrange(desc(when)) %>%
+  detailed_entries(
+    what = what,
+    when = when,
+    with = with,
+    why = why,
+    where = where
+  )
+```
+
+
+# Community Services
+
+## **Manuscript Reviewer**
  * Journal of Ethnic and Migration Studies (2)
  * PLoS One (6)
  * Psychology and Sexuality (1)
  * Psychology Research and Behavior Management (1)
  
-## Other
+## **Others**
 
 ```{r}
 jobs %>%
@@ -214,7 +286,7 @@ jobs %>%
 
 # Presentation
 
-## Conference Presentation
+## **Conference Presentations**
 
 ```{r}
 presentations %>%
@@ -230,7 +302,7 @@ presentations %>%
 ```
 
 
-## Poster Presentation
+## **Poster Presentations**
 
 ```{r}
 presentations %>%
@@ -246,7 +318,7 @@ presentations %>%
 ```
 
 
-## Invited Talk
+## **Invited Talks**
 
 ```{r}
 presentations %>%
@@ -255,14 +327,13 @@ presentations %>%
   detailed_entries(
     what = what,
     when = when,
-    with = with,
     where = where,
-    why = why
+    why = why,
   )
 ```
 
 
-## Workshop
+## **Workshops**
 
 ```{r}
 presentations %>%
@@ -271,14 +342,13 @@ presentations %>%
   detailed_entries(
     what = what,
     when = when,
-    with = with,
     where = where,
-    why = why
+    why = why,
   )
 ```
 
 
-## Live TV Talkshow
+## **Live TV Talkshow**
 
 ```{r}
 presentations %>%
@@ -297,7 +367,7 @@ presentations %>%
 
 # Professional Development
 
-## Workshop
+## **Workshops**
 
 ```{r}
 development %>%
@@ -310,7 +380,7 @@ development %>%
   )
 ```
 
-## MOOC
+## **MOOC**
 
 ```{r}
 development %>%
@@ -323,7 +393,7 @@ development %>%
   )
 ```
 
-## Summer School
+## **Summer School**
 
 ```{r}
 development %>%
@@ -336,7 +406,7 @@ development %>%
   )
 ```
 
-## Professional Membership
+## **Professional Membership**
 
 ```{r}
 jobs %>%
@@ -349,7 +419,7 @@ jobs %>%
   )
 ```
 
-# Part-time Jobs
+# **Part-time Jobs**
 
 ```{r}
 jobs %>%
@@ -364,21 +434,9 @@ jobs %>%
   )
 ```
 
+# **Other Activities**
 
-# Skills
-  * Academic writing
-  * Advanced statistical analysis
-    - Multi-level modeling, latent variable modeling (structural equation modeling, mixture models), general linear modeling, generalised linear models
-  * Advanced psychometrics analysis
-    - Latent response model
-  * Research methods
-    - Cross-sectional survey, experiments, systematic review, & meta-analysis
-  * R programming
-    - `lavaan`, `psych`, `lme4`, `papaja`, `xaringan`, `blogdown`, `bookdown`, `metaverse`, & `tidyverse`
-
-
-# Other Activities
   * Cooking
   * Cycling
-  * Reading science fiction
-  * Watching food/culinary documentary on Netflix
+  * Reading science fictions
+  * Watching food/culinary documentary

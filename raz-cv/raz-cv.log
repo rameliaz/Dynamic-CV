@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.28)  29 AUG 2019 22:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.28)  25 OCT 2019 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -707,7 +707,7 @@ LaTeX Info: Redefining \nameref on input line 72.
 
 \pagenumberwidth=\skip84
 \makecvheadpicturebox=\box54
-<foto.jpeg, id=105, 426.59375pt x 551.05875pt>
+<foto.jpeg, id=121, 426.59375pt x 551.05875pt>
 File: foto.jpeg Graphic file (type jpg)
 <use foto.jpeg>
 Package pdftex.def Info: foto.jpeg  used on input line 75.
@@ -798,61 +798,182 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 {c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap
-/pdftex.map} <./foto.jpeg>] [2]
-Underfull \hbox (badness 1917) in paragraph at lines 110--110
-[]|\T1/lmr/bx/n/10.95 Why we shouldn't take self-ies at disaster-affected ar-ea
-s\T1/lmr/m/n/10.95 (+20) , The
+/pdftex.map} <./foto.jpeg>] [2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/lmr/bx/n/10.95 Elsevier: Se-makin Ke-nal, Se-makin Gelap\T1/lmr/m/n/10.9
+5 (+20) ,
  []
 
-[3] [4] [5] [6] [7] [8]
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 9.41699pt on input line 233.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+
+Underfull \hbox (badness 2035) in paragraph at lines 138--138
+\T1/lmr/bx/n/10.95 berpikir kon-spir-atif?\T1/lmr/m/n/10.95 (+20) , \T1/lmr/m/s
+l/10.95 (+20) http://theconversation.com/prabowo-tak-percaya-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/lmr/bx/n/10.95 Why we shouldn't take self-ies at disaster-affected ar-ea
+s\T1/lmr/m/n/10.95 (+20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/lmr/m/sl/10.95 (+20) http://theconversation.com/why-we-shouldnt-take-selfie
+s-at-disaster-affected-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/lmr/m/sl/10.95 (+20) http://theconversation.com/suka-ambil-selfie-di-lokasi
+-bencana-pertanda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/lmr/m/sl/10.95 (+20) kobra-dosen-indonesia-terobsesi-pada-indeks-scopus-dan
+-praktik-tercela-
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 138--138
+[]|\T1/lmr/bx/n/10.95 Kasus Ratna Sarumpaet: men-gapa lu-lu-san uni-ver-si-tas 
+tetap
+ []
+
+[5]
+Underfull \hbox (badness 1082) in paragraph at lines 138--138
+[]|\T1/lmr/bx/n/10.95 Hasil survei Pilkada tidak aku-rat: apa yang salah pada l
+em-
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 138--138
+\T1/lmr/bx/n/10.95 darinya\T1/lmr/m/n/10.95 (+20) , \T1/lmr/m/sl/10.95 (+20) ht
+tp://theconversation.com/ibu-bekerja-rentan-terkena-gangguan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/lmr/bx/n/10.95 Mempertahankan hubun-gan perte-m-anan se-lama
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/lmr/bx/n/10.95 pemilu: jan-gan bicara poli-tik di me-dia sosial\T1/lmr/m/n/
+10.95 (+20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/lmr/bx/n/10.95 tim-pang\T1/lmr/m/n/10.95 (+20) , \T1/lmr/m/sl/10.95 (+20) h
+ttp://theconversation.com/penderita-gangguan-mental-makin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/lmr/bx/n/10.95 Echo cham-ber and fu-ture democ-racy\T1/lmr/m/n/10.95 (+2
+0) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/lmr/m/sl/10.95 (+20) https://www.thejakartapost.com/academia/2017/05/26/ech
+o-chamber-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/lmr/bx/n/10.95 The dan-ger of floods be-com-ing rou-tine\T1/lmr/m/n/10.9
+5 (+20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/lmr/m/sl/10.95 (+20) https://www.thejakartapost.com/news/2015/02/11/the-dan
+ger-floods-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/lmr/bx/n/10.95 Can we trust poll-sters and quick counts?\T1/lmr/m/n/10.9
+5 (+20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/lmr/m/sl/10.95 (+20) https://www.thejakartapost.com/news/2014/07/11/can-we-
+trust-pollsters-
+ []
+
+[6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\T1/lmr/bx/n/10.95 Multilevel Mod-el-ing (https://rameliaz.github.io/mlm-lme
+-
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 184--184
+\T1/lmr/bx/n/10.95 workshop/)\T1/lmr/m/n/10.95 (+20) , Fac-ulty of Psy-chol-ogy
+ Uni-ver-si-tas Is-lam Sul-tan Agung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\T1/lmr/bx/n/10.95 Multilevel Mod-el-ing (https://rameliaz.github.io/mlm-lme
+-
+ []
+
 [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+
+Overfull \hbox (5.50702pt too wide) has occurred while \output is active
+[]|\T1/lmr/m/it/10.95 (-20) 10/[]10[] 
+ []
+
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
 (./raz-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `raz-cv.out' has not changed.
-(rerunfilecheck)             Checksum: 42104488F33B06509A7AFB476D434830;3187.
+(rerunfilecheck)             Checksum: C925D2D4096476C73B3BBCC6B06D09E7;3687.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23247 strings out of 494553
- 396521 string characters out of 6175559
- 478593 words of memory out of 5000000
- 26590 multiletter control sequences out of 15000+600000
- 598805 words of font info for 102 fonts, out of 8000000 for 9000
+ 23283 strings out of 494553
+ 396884 string characters out of 6175559
+ 477706 words of memory out of 5000000
+ 26597 multiletter control sequences out of 15000+600000
+ 602349 words of font info for 112 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,13n,69p,3724b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/deja
-vu/dejavumono_t1-type1.enc}{c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-
-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/Amelia Zein/AppData/Roaming/TinyTeX
-/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{c:/Users/Amelia Z
+ 70i,13n,69p,3986b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
+m-ec.enc}{c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvi
+ps/fontawesome/fontawesomethree.enc}{c:/Users/Amelia Zein/AppData/Roaming/TinyT
+eX/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{c:/Users/Amelia Z
 ein/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/Use
 rs/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/f
 ontawesometwo.enc}<c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/font
 s/type1/public/dejavu/DejaVuSansMono-Oblique.pfb><c:/Users/Amelia Zein/AppData/
-Roaming/TinyTeX/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb><c:/Use
-rs/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesom
-e/FontAwesome.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/font
-s/type1/public/lm/lmbx10.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texm
-f-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/Amelia Zein/AppData/Roaming/T
-inyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Amelia Zein/AppData
-/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Amelia Ze
-in/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users
-/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pf
-b><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/l
-m/lmro10.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
-e1/public/lm/lmro12.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dis
-t/fonts/type1/public/lm/lmro17.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTe
-X/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on raz-cv.pdf (9 pages, 570954 bytes).
+Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/U
+sers/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx1
+0.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publ
+ic/lm/lmbx12.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts
+/type1/public/lm/lmr10.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-
+dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Amelia Zein/AppData/Roaming/Tiny
+TeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/Amelia Zein/AppData/Ro
+aming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Amelia Zein
+/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/Users/
+Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmro12.pfb
+><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm
+/lmro17.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/type
+1/public/lm/lmsy10.pfb>
+Output written on raz-cv.pdf (10 pages, 571740 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 22734 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 353 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 22766 words of extra memory for PDF output out of 24883 (max. 10000000)
 
